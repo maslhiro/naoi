@@ -1,6 +1,15 @@
 @import "~antd/dist/antd.css";
 
-.App {
+._app {
   display: flex;
   flex: 1;
+}
+
+._content_home {
+  display: flex;
+  padding: 10vw;
+  padding-top: 5vw;
+  flex: 1;
+  flex-direction: column;
+  background-color: white;  
 }
