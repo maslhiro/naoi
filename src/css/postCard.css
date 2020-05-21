@@ -1,0 +1,29 @@
+._post_card {
+  display: flex;
+  background-color: transparent;
+  border-radius: 14px;
+  width: 210px;
+  height: 380px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 5px 10px grey;
+  overflow: hidden;
+}
+
+._cover_post_card {
+  flex: 1;
+  display: flex;
+}
+
+._content_post_card {
+  display: flex;
+  flex: 1;
+  background-color: green;
+}
+
+._column_post_card {
+  display: flex;
+  flex: 1;
+  padding: 5px;
+  background-color: white;
+}
