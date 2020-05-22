@@ -13,34 +13,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.ant-menu-horizontal {
-  line-height: 60px;
-}
-
-.ant-menu-item {
-  font-size: 13px;
-  color: darkcyan;
-  padding: 0 24px;
-}
-
-.ant-menu-horizontal {
-  border-bottom : none
-}
-
-.ant-menu-horizontal > .ant-menu-item,
-.ant-menu-horizontal > .ant-menu-submenu {
-  border: none;
-}
-
-.ant-menu-horizontal > .ant-menu-item:hover,
-.ant-menu-horizontal > .ant-menu-submenu:hover,
-.ant-menu-horizontal > .ant-menu-item-active,
-.ant-menu-horizontal > .ant-menu-submenu-active,
-.ant-menu-horizontal > .ant-menu-item-open,
-.ant-menu-horizontal > .ant-menu-submenu-open,
-.ant-menu-horizontal > .ant-menu-item-selected,
-.ant-menu-horizontal > .ant-menu-submenu-selected {
-  color: black;
-  border: none;
-}
