@@ -1,13 +1,19 @@
 import React, { } from 'react'
 import { Menu, Avatar, Affix } from 'antd';
+import { useHistory } from 'react-router-dom'
 import { SlackOutlined } from '@ant-design/icons'
 
-const mockTitle = ['World', 'Sports', 'Opinion', 'Lifestyle', 'Business', 'Culture', 'Fashion', 'Tech']
+const mockTitle = ['World', 'Sports', 'Opinion', 'Home', 'About', 'Culture', 'Fashion', 'Tech']
 
 export const MenuNav = () => {
 
+    let history = useHistory();
+
     let renderMenuItem = () => {
-        return mockTitle.map((i) => <Menu.Item key={i}>{i}</Menu.Item>)
+        return mockTitle.map((i) => (
+            <Menu.Item
+                onClick={() => history.push(i)}
+                key={i}>{i}</Menu.Item>))
     }
 
     return (
