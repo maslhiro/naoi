@@ -39,18 +39,3 @@
   background-color: transparent;
   overflow: hidden;
 }
-
-._list_post_card {
-  display: flex;
-  flex: 1;
-  background-color: transparent;
-}
-
-._column_list_post_card {
-  display: flex;
-  flex: 1;
-  background-color: transparent;
-  flex-direction: column;
-  padding: 5px;
-  margin: 5px;
-}
