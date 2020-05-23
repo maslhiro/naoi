@@ -1,7 +1,5 @@
 import React from "react";
-import { Layout } from 'antd'
 
-import { MenuNav } from './components'
 import { RootRouter } from "./router";
 
 import './css'
@@ -9,9 +7,7 @@ import './css'
 function App() {
   return (
     <div className="_app">
-      <Layout>
-        <RootRouter />
-      </Layout>
+      <RootRouter />
     </div>
   );
 }

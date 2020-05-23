@@ -1,17 +1,29 @@
-._post_card {
+._post_card_column {
   position: relative;
   display: flex;
   background-color: transparent;
   border-radius: 14px;
-  width: 210px;
-  height: 380px;
+  width: 100%;
+  height: 35vw;
   box-shadow: 1px 5px 10px grey;
   overflow: hidden;
 }
 
-._cover_post_card {
-  flex: 1;
+._post_card_row {
+  position: relative;
   display: flex;
+  background-color: transparent;
+  border-radius: 14px;
+  width: 100%;
+  height: 22vw;
+  box-shadow: 1px 5px 10px grey;
+  overflow: hidden;
+}
+
+
+._cover_post_card {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   overflow: hidden;
   position: absolute;
@@ -37,6 +49,8 @@
 ._column_list_post_card {
   display: flex;
   flex: 1;
+  background-color: transparent;
+  flex-direction: column;
   padding: 5px;
-  background-color: white;
+  margin: 5px;
 }
